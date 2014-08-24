@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html class="no-js" lang="ja" ng-app="app">
+    <head>
+    	<meta charset="UTF-8">
+		<title>index</title>
+		<link rel="stylesheet" href="css/reset.css" type="text/css" />
+		<link rel="stylesheet" href="css/common.css" type="text/css" />
+        <style>
+        </style>
+
+	</head>
+	
+	<body>
+		<div>
+            <header>
+                <h1>ヘッダー</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#/">index①</a></li>
+                    <li><a href="#/test">test①</a></li>
+                    <li><a href="#/error">error①</a></li>
+                </ul>
+            </nav>
+			<div ng-view id="contents">
+
+            </div>
+            <footer>
+                <div>フッター</div>
+            </footer>
+		</div>
+	</body>
+    
+    <script src="js/lib/angular.min.js"></script>
+    <script src="js/lib/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script src="js/controllers/mainCtrl.js"></script>
+    <script src="js/controllers/helloCtrl.js"></script>
+    <script>
+    </script>
+</html>

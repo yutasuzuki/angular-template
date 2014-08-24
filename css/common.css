@@ -1,0 +1,72 @@
+/* line 3, ../sass/common.scss */
+header {
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+  background-color: #efefef;
+  border-bottom: 1px solid #666666;
+}
+
+/* line 10, ../sass/common.scss */
+#contents {
+  max-width: 960px;
+  height: 600px;
+  background-color: #fefefe;
+  margin: 0 auto;
+}
+
+/* line 16, ../sass/common.scss */
+footer {
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+  background-color: #e3e3e3;
+  border-top: 1px solid #666666;
+}
+
+/* line 23, ../sass/common.scss */
+nav ul {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 27, ../sass/common.scss */
+nav ul li {
+  display: inline;
+  padding: 20px;
+}
+
+/* clearfix
+--------------------------------------*/
+/* line 34, ../sass/common.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 44, ../sass/common.scss */
+h1, h2, h3 {
+  font-weight: lighter;
+  color: #555;
+  /*フォントサイズ調整*/
+}
+/* line 49, ../sass/common.scss */
+h1 h1, h2 h1, h3 h1 {
+  font-size: 42px;
+}
+/* line 52, ../sass/common.scss */
+h1 h2, h2 h2, h3 h2 {
+  font-size: 38px;
+}
+/* line 55, ../sass/common.scss */
+h1 h3, h2 h3, h3 h3 {
+  font-size: 16px;
+}
+/* line 58, ../sass/common.scss */
+h1 h4, h2 h4, h3 h4 {
+  font: 14px;
+}
